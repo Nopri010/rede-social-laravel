@@ -27,13 +27,28 @@ class UserTableSeeder extends Seeder
         //Crie aqui um usuário para cada membro do grupo/
         /////////////////////////////////////////////////
 
-        // User::create([
-        //     'name' => '',
-        //     'email' => '',
-        //     'email_verified_at' => now(),
-        //     'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-        //     'remember_token' => Str::random(10),
-        // ]);
+        User::create([
+            'name' => 'Amanda Everling Viégas',
+             'email' => 'amandaeverling@gmail.com',
+            'email_verified_at' => now(),
+           'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'remember_token' => Str::random(10),
+         ]);
 
+         User::create([
+            'name' => 'João Vitor Benedetti',
+             'email' => 'jvbenedetti1423@gmail.com',
+            'email_verified_at' => now(),
+           'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'remember_token' => Str::random(10),
+         ]);
+
+         User::create([
+            'name' => 'Guilhermi Pedroso Texeira',
+             'email' => 'guilhermipedroso@gmail.com',
+            'email_verified_at' => now(),
+           'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'remember_token' => Str::random(10),
+         ]);
     }
 }
